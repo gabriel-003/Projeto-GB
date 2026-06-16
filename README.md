@@ -1,4 +1,4 @@
-# GB-Projeto - Caça ao Tesouro
+# Projeto GB - Caça ao Tesouro
 
 **Grupo:** Gabriel Brasil e Mateus Biscardi
 
