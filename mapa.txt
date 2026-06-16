@@ -1,0 +1,52 @@
+# ============================================================
+# terrain_lava.png: 3 cols x 5 rows
+# ============================================================
+
+TILESET terrain_lava.png 15 128 64
+
+WALKABLE 0 0 0 1 1 0 0 0 1 0  0  0  0  0  0
+
+
+DEADLY 0 0 0 1 0 0 0 0 0 0  0  0  0  0  0
+
+# tile de rastro do player
+VISITED 8
+
+SIZE 15 15
+
+# legenda do mapa:
+#   id 4 = areia, caminhavel
+#   id 3 = lava, não cmainhavel
+#   id 9 = parede, não caminhavel
+#
+MAP
+4 4 4 9 4 4 4 4 4 9 4 4 4 4 4
+4 9 4 9 4 3 3 3 4 9 4 9 9 9 4
+4 9 4 4 4 3 4 3 4 4 4 9 4 4 4
+4 4 4 4 9 3 3 3 9 4 4 4 4 9 4
+9 9 4 4 9 4 4 4 9 4 4 9 9 9 4
+4 4 4 9 9 4 9 4 9 9 4 4 4 4 4
+4 3 3 9 4 4 9 4 4 9 3 3 4 4 4
+4 3 3 4 4 4 4 4 4 4 3 3 4 4 4
+4 4 4 4 9 4 4 4 9 4 4 4 4 4 4
+9 9 4 4 9 3 3 3 9 4 4 9 9 9 4
+4 4 4 4 4 3 4 3 4 4 4 9 4 4 4
+4 9 9 9 4 3 3 3 4 9 9 9 4 9 4
+4 4 4 9 4 4 4 4 4 9 4 4 4 9 4
+4 4 4 9 4 4 4 4 4 9 4 4 4 4 4
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+
+PLAYER 7 7
+
+# moedas em posicoes seguras
+COIN 0 0
+COIN 6 0
+COIN 14 0
+COIN 0 7
+COIN 14 7
+COIN 0 14
+COIN 7 14
+COIN 14 14
+
+# vitoria ocorre ao coletar todas as 8 moedas
+GOAL 14 0

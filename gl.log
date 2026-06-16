@@ -1,0 +1,4 @@
+GL_LOG_FILE log. local time Tue Jun 16 00:34:39 2026
+
+starting GLFW 3.3.10 X11 GLX EGL OSMesa clock_gettime evdev sharedrenderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+version: 4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
