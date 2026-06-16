@@ -26,3 +26,8 @@ g++ -o gb-projeto gl_utils.cpp maths_funcs.cpp stb_image.cpp gb-projeto.cpp -lGL
 | `C` | Diagonal Sudeste |
 | `R` | Reiniciar o jogo |
 | `ESC` | Sair |
+
+---
+
+## Objetivo
+Coletar todas as moedas.
