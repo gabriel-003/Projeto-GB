@@ -1,17 +1,28 @@
-Grupo: 
-Gabriel Brasil e Mateus Biscardi
+# GB-Projeto - Caça ao Tesouro
 
-Compilação: 
-   g++ -o gb-projeto gl_utils.cpp maths_funcs.cpp stb_image.cpp gb-projeto.cpp -lGL -lGLEW -lglfw
+**Grupo:** Gabriel Brasil e Mateus Biscardi
 
-Controles:
-    W / Seta cima      : mover Norte
-    S / Seta baixo     : mover Sul
-    A / Seta esquerda  : mover Oeste
-    D / Seta direita   : mover Leste
-    Q                  : diagonal Noroeste
-    E                  : diagonal Nordeste
-    Z                  : diagonal Sudoeste
-    C                  : diagonal Sudeste
-    R                  : reiniciar o jogo
-    ESC                : sair
+---
+
+## Compilação
+
+```bash
+g++ -o gb-projeto gl_utils.cpp maths_funcs.cpp stb_image.cpp gb-projeto.cpp -lGL -lGLEW -lglfw
+```
+
+---
+
+## Controles
+
+| Tecla | Ação |
+|---|---|
+| `W` / `↑` | Mover Norte |
+| `S` / `↓` | Mover Sul |
+| `A` / `←` | Mover Oeste |
+| `D` / `→` | Mover Leste |
+| `Q` | Diagonal Noroeste |
+| `E` | Diagonal Nordeste |
+| `Z` | Diagonal Sudoeste |
+| `C` | Diagonal Sudeste |
+| `R` | Reiniciar o jogo |
+| `ESC` | Sair |
