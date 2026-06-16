@@ -1,4 +1,4 @@
-Grupos: 
+Grupo: 
 Gabriel Brasil e Mateus Biscardi
 
 Compilação: 
